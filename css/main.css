@@ -1,0 +1,61 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  background-color: gray;
+}
+
+.header,
+.visual,
+.main,
+.slogan {
+  width: 940px;
+  margin: 0 auto;
+  /* margin-block, margin-inline : 마진에 대한  축*/
+}
+
+.header {
+  background-color: yellow;
+}
+.visual {
+  background-color: orange;
+}
+.main {
+  background-color: aqua;
+  height: 50vh;
+  display: flex;
+  padding: 30px;
+  justify-content: space-between;
+}
+.group {
+  /* flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 100%; */
+  /* flex: 1 1 100%; */
+}
+.group1 {
+  background-color: rgb(165, 164, 164);
+  width: 250px;
+}
+.group2 {
+  background-color: olive;
+  width: 380px;
+  order: -1;
+}
+.group3 {
+  background-color: chartreuse;
+  width: 190px;
+}
+.slogan {
+  background-color: limegreen;
+}
+.footer {
+  background-color: violet;
+}
